@@ -11,6 +11,10 @@ const routes = [
     errorElement: <ErrorPage />,
   },//diff between elem and error?
   {
+    path: "profile",
+    element: <DefaultProfile/>,
+  },
+  {
     path: "profile/:name",
     element: <Profile />,
   },
